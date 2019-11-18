@@ -13,7 +13,7 @@ html, body{
 	font-size: 18px;
 	line-height:30px;
 	color:#444;
-	text-shadow:10px 10 px 0px #fff;
+	text-shadow:1px 1 px 0px #fff;
 }
 body{
 	text-align:center;
@@ -25,4 +25,12 @@ h1{
 }
 img{
 	border-radius:50%;
+}
+
+.hero{
+	outline:1px solid red;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
 }
