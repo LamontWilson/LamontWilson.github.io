@@ -33,9 +33,15 @@ h1 sub:before{
 h1 sub:after{
 	content:")";
 }
-
+section{
+	border-top:2px dashed #eee;
+	padding:50px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	padding-left:0px;
+	padding-right:0px;
+}
 .hero{
-	outline:1px solid red;
 	height:100vh;
 	display:flex;
 	flex-direction:column;
@@ -57,4 +63,5 @@ h1 sub:after{
 .headshot:hover{
 	transform:rotate(360deg);
 	box-shadow: 0px 0px 100px 50px #fc0;
+				0px 0px 100px 20px #960 inset;
 	}
